@@ -1,0 +1,30 @@
+{
+  "name": "agilize-delegate-chatbot-template-js",
+  "version": "1.0.0",
+  "description": "Agilize starter delegate bot with express Nodemon and Ngrok",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon --delay 1000ms src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agilizeapp/agilize-delegate-chatbot-template-js.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+
+    "nodemon"
+  ],
+  "author": "Agilize <hi@agilize.app> (https://agilize.app)",
+  "license": "AGPL-3.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.3"
+  }
+}
